@@ -1,0 +1,37 @@
+.values {
+    padding-top: 94px;
+    padding-bottom: 47px;
+
+&__list {
+    display: flex;
+}
+
+&__picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    background-color: var(--btn-bg-color);
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+&__item:not(:first-child) {
+    margin-left: 30px;
+}
+
+&__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+&__text {
+    line-height: 1.71;
+    font-size: 14px;
+    color: var(--title-color);
+}
+}
